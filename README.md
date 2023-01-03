@@ -1,5 +1,3 @@
-bdb
-
 # xPassRush - 2023 NFL Big Data Bowl Submission
 
 Our submission to this year's NFL Big Data Bowl is geared towards the coaching track, with the development of an expected pass rush metric. Before getting to our modeling process, we'll go through some of the data cleaning steps that allowed for the clean implementation of our metric and application. One of the first things we did was to add a player's primary position to the dataset, which was later used when building the model, and then standardizing the tracking data to remove conflation and any outliers. 
