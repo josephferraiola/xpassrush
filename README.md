@@ -10,4 +10,4 @@ We immediately saw great performance from the model. The first key check was to 
 
 We hope that xPassRush, MSE, and PROE can be valuable tools for coaches and pro scouts in their preparation for upcoming opponents and self-scouting. With further development xPassRush could even become a player development tool that helps QB and OL take mental reps to pickup on the subtle nuances and tells for certain defender alignments. An app could be created where a player has to predict which defender is going to rush the passer using the pre-snap information from the All-22. The player would input his prediction by checking off the players he expects to rush and summarize in a notes section what offensive protection call would then take place to block that group of pass rushers. Once that information is submitted the app would provide feedback to the player on whether his prediction was correct or not. xPassRush provides coaches and players alike with the ability to evaluate defenses before the snap and we believe its value is immeasurable. Thank you for reading!
 
-
+Script order to run the model: helpers.R > crept_disXPR_model.R > crept_dis_xgb.R
