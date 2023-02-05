@@ -188,8 +188,8 @@ defenders_prior_to_snap_joined %>%
   ggplot(aes(x = distFromLOS, y = y_dis_from_ball, color = xPassRush)) +
   scale_alpha_continuous(limits = c(0,0.2), breaks = seq(0,0.2, by = 0.025)) +
   geom_point(alpha = 0.03) +
-  scale_color_gradient2(mid = "#FFFF00", high = "red",
-                        midpoint = 0) +
+  scale_color_gradient2(low = "#FFFF00", mid = "orange", high = "red",
+                        midpoint = 0.5) +
   xlim(-3, 25) +
   ylim(-25, 25) +
   coord_flip() +
@@ -223,8 +223,8 @@ defenders_prior_to_snap_joined %>%
   ggplot(aes(x = distFromLOS, y = y_dis_from_ball, color = xPassRush)) +
   scale_alpha_continuous(limits = c(0,0.2), breaks = seq(0,0.2, by = 0.025)) +
   geom_point(alpha = 0.6) +
-  scale_color_gradient2(low = "#d7191c", mid = "#ffff00", high = "red",
-                        midpoint = 0) +
+  scale_color_gradient2(low = "#FFFF00", mid = "orange", high = "red",
+                        midpoint = 0.5) +
   xlim(-0.05, 25) +
   ylim(-25, 25) +
   coord_flip() +
